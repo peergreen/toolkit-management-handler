@@ -60,8 +60,6 @@ public class ManagementBeanHandler extends PrimitiveHandler {
     public static final String NAMESPACE = "com.peergreen.ipojo";
     public static final String NAME = "management";
 
-    private List<Property> attributes = new ArrayList<>();
-
     private ObjectName objectName;
     private ComponentDynamicMBean mbean;
 
